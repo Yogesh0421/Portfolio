@@ -1,0 +1,34 @@
+.project-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width:clamp(250px,33%,380px);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(---color-secondry);
+}
+
+.project-card img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.language-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.project-card .btns{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.project-card button{
+    padding: 5px 10px;
+    border:2px solid var(---color-secondry);
+    border-radius:5px ;
+}

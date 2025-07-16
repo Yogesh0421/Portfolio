@@ -1,0 +1,27 @@
+.card{
+    background-color: var(---color-lightBlue);
+    /* max-width: 280px; */
+    width: clamp(250px,30%,300px);
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.card img{
+    background-color: #fff;
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+  box-shadow: inset 0 0 10px var(---color-secondry);
+
+}
+
+.card p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+

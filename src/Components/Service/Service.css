@@ -1,0 +1,15 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service-grid{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+

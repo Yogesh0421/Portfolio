@@ -1,0 +1,21 @@
+.project{
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    gap: 10px;
+    row-gap: 25px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* max-width: 95%; */
+    background-color: var(---color-lightBlue);
+    padding: 10px;
+    
+}

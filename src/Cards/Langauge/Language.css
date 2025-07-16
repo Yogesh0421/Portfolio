@@ -1,0 +1,9 @@
+.language{
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    color: var(---color-secondry);
+    font-weight: 700;
+    /* border: 2px solid var(---color-secondry); */
+    background-color: var(---color-lightBlue);
+    border-radius: 5px;
+}
