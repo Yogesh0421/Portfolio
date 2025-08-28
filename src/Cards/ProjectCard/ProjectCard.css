@@ -1,0 +1,65 @@
+.project-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width:clamp(250px,33%,380px);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(---color-secondry);
+    cursor: pointer;
+    position: relative;
+    animation: fade-up linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+.project-card:hover{
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.project-card:not(:hover){
+    opacity: 0.8;
+}
+
+@keyframes fade-up{
+    from{
+        top: 25px;
+        opacity: 0.25;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.project-card img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.language-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.project-card .btns{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.project-card button{
+    padding: 5px 10px;
+    border:2px solid var(---color-secondry);
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+.project-card button:hover{
+    background-color: #e6e2e2e5;
+}

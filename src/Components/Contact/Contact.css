@@ -1,0 +1,79 @@
+.contact{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container{
+    /* background-color: aqua; */
+    /* width: 50%; */
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    font-size: 1.2rem;
+    border: 2px solid var(---color-primary);
+    position: relative;
+    animation: fade-up linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(---color-primary);
+}
+
+@keyframes fade-up{
+    from{
+        top: 25px;
+        left: 250px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+.contact-container .contact-detail{
+    position: relative;
+    animation: position-up linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+@keyframes position-up{
+    from{
+        top: 25px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+    }
+}
+
+.contact-container .contact-detail a{
+    display: flex;
+    color: var(---color-secondry);
+    text-decoration: none;
+    gap: 15px;
+    transition: all 0.1s linear;
+}
+
+.contact-container .contact-detail a:hover{
+    color: var(---color-primary);
+}
+
+.contact-container .contact-detail i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media screen  and (max-width:460px){
+    .contact-container{
+        padding-inline: 10px;
+        gap: 10px;
+    }
+}
+
