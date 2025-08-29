@@ -106,10 +106,12 @@ nav{
         top: 50px;
         right: 0;
         opacity: 0;
+        pointer-events: none;
     }
 
     .nav-inner.open{
         opacity: 1;
+        pointer-events: auto;
     }
 
     ul{

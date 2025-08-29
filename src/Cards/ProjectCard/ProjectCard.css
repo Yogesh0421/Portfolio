@@ -58,6 +58,7 @@
     border:2px solid var(---color-secondry);
     border-radius:5px ;
     cursor: pointer;
+    z-index: 5;
 }
 
 .project-card button:hover{
