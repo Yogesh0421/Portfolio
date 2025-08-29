@@ -191,6 +191,8 @@
 
     .about .education{
         padding: 10px;
+        pointer-events: none;
+
     }
 
     .texts {
