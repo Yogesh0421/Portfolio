@@ -14,7 +14,7 @@ const Home = () => {
                     I am a skilled web developer with expertise in creating fully responsive websites and managing backend development. I am eager to contribute my skills and grow in a professional environment.
                 </p>
                 <div>
-                    <a href="/resume.pdf" download="Yogesh_Resume.pdf" target='#'>
+                    <a href="resume.pdf" download="Yogesh_resume.pdf" target='--blank'>
                         <button className="hire-btn">
                             <span>Resume</span>
                             <i class="bi bi-box-arrow-down icon"></i>        
