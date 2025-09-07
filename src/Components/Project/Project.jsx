@@ -7,6 +7,7 @@ import hospital from '../../assets/hospitaldash.png'
 import calculator from '../../assets/calculator.png'
 import amazon from '../../assets/Amazon.png'
 import figma from '../../assets/Demo.png'
+import news from '../../assets/news.png'
 import weather from '../../assets/weather.png'
 import movie from '../../assets/movieFinder.png'
 
@@ -76,6 +77,14 @@ const Project = () => {
       Language1:"React",
       Preview:"https://yogesh0421.github.io/Movie-Finder/",
       Code:"https://github.com/Yogesh0421/Movie-Finder"
+    },
+    { id:9,
+      image:news,
+      name:"News Homepage",
+      Language:"HTML & CSS",
+      Language1:"JavaScript",
+      Preview:"https://yogesh0421.github.io/news-homepage/",
+      Code:"https://github.com/Yogesh0421/news-homepage"
     },
   ]
   return (
