@@ -59,7 +59,7 @@ const Project = () => {
       name:"Tutorial Freak App",
       Language:"HTML & CSS",
       Language1:"JavaScript",
-      Preview:"https://yogesh0421.github.io/Educational-website/",
+      Preview:"https://educational-website-rose.vercel.app/",
       Code:"https://github.com/Yogesh0421/Educational-website"
     },
     { id:7,
