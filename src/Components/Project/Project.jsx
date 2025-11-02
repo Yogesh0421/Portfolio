@@ -19,7 +19,7 @@ const Project = () => {
       name:"Food Order App",
       Language:"HTML & CSS",
       Language1:"React",
-      Preview:"https://yogesh0421.github.io/Food-order-React/",
+      Preview:"https://yogesh0421-food-order-react.vercel.app/",
       Code:"https://github.com/Yogesh0421/Food-order-React"
     },
     { id:2,
@@ -27,7 +27,7 @@ const Project = () => {
       name:"Hospital Dashboard",
       Language:"HTML & CSS",
       Language1:"React",
-      Preview:"https://yogesh0421.github.io/Hospital-Dashboard/",
+      Preview:"yogesh0421-hospital-dashboard.vercel.app",
       Code:"https://github.com/Yogesh0421/Hospital-Dashboard"
     },
     { id:3,
@@ -35,7 +35,7 @@ const Project = () => {
       name:"Calculator App",
       Language:"HTML & CSS",
       Language1:"JavaScript",
-      Preview:"https://yogesh0421.github.io/calculator/",
+      Preview:"https://yogesh0421-calculator.vercel.app",
       Code:"https://github.com/Yogesh0421/calculator"
     },
     { id:4,
@@ -51,7 +51,7 @@ const Project = () => {
       name:"Figma Design",
       Language:"HTML & CSS",
       Language1:"React",
-      Preview:"https://yogesh0421.github.io/Test-Website/",
+      Preview:"yogesh0421-test-website.vercel.app",
       Code:"https://github.com/Yogesh0421/Test-Website"
     },
     { id:6,
@@ -67,7 +67,7 @@ const Project = () => {
       name:"Weather App",
       Language:"HTML & CSS",
       Language1:"React",
-      Preview:"https://yogesh0421.github.io/Weather-app/",
+      Preview:"yogesh0421-weather-app.vercel.app",
       Code:"https://github.com/Yogesh0421/Weather-app"
     },
     { id:8,
@@ -83,7 +83,7 @@ const Project = () => {
       name:"News Homepage",
       Language:"HTML & CSS",
       Language1:"JavaScript",
-      Preview:"https://yogesh0421.github.io/news-homepage/",
+      Preview:"yogesh0421-news-homepage.vercel.app",
       Code:"https://github.com/Yogesh0421/news-homepage"
     },
   ]
