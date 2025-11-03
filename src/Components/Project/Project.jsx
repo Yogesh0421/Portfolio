@@ -10,6 +10,8 @@ import figma from '../../assets/Demo.png'
 import news from '../../assets/news.png'
 import weather from '../../assets/weather.png'
 import movie from '../../assets/movieFinder.png'
+import expense from '../../assets/expense.png'
+import jsonmaker from '../../assets/jsonmaker.png'
 
 const Project = () => {
 
@@ -85,6 +87,22 @@ const Project = () => {
       Language1:"JavaScript",
       Preview:"https://yogesh0421-news-homepage.vercel.app",
       Code:"https://github.com/Yogesh0421/news-homepage"
+    },
+    { id:10,
+      image:jsonmaker,
+      name:"JSON Maker",
+      Language:"HTML & CSS",
+      Language1:"JavaScript",
+      Preview:"https://yogesh0421-json-maker.vercel.app",
+      Code:"https://github.com/Yogesh0421/json-maker"
+    },
+    { id:11,
+      image:expense,
+      name:"Expense Tracker",
+      Language:"HTML & CSS",
+      Language1:"JavaScript",
+      Preview:"https://yogesh0421-expense-tracker.vercel.app",
+      Code:"https://github.com/Yogesh0421/expense-tracker"
     },
   ]
   return (
